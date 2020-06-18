@@ -1,0 +1,306 @@
+/*.........................     Mobile view as defalut     ....................*/
+
+* {
+	box-sizing: border-box;
+}
+/*...... put background color and font-family .......*/
+body{
+	background-color: #F7F7FF;
+	color: #333131;
+	font-family: Montserrat, sans-serif, arial;
+}
+/*....... for the logo ....*/
+.logo img {
+	width: 50%;
+	height: auto;
+	margin: 32px;
+}
+/*..... for heading ......*/
+.text h1{
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 32px;
+
+}
+/*...... for contain .....*/
+.text p{
+	font-size: 24px;
+	text-decoration: none;
+	line-height: 1.2;
+	margin: 32px;
+
+}
+/*...... for image of scooter girl .......*/
+.back_image img {
+	max-width: 100%;
+	height: auto;
+	padding: 0 2rem 1rem 2rem;
+}
+/*....... for contact form .......*/
+.form {
+	background-color: white;
+	padding: 1rem;
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px grey;
+	margin: 2rem;
+}
+
+/*....... for heaidng of contatc form ......*/
+.form legend {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 10px;
+}
+/*...... for paragraph of contact form .....*/
+.form p {
+	font-size: 16px;
+	margin: 10px;
+	/*margin-top: 7px;
+	margin-bottom: 7px;*/
+}
+/*..... for input fields ......*/
+input {
+	background-color: #F9F9FA;
+	border: #F9F9FA;
+	font-size: 16px;
+	border-radius: 9px;
+	padding: 0.7rem;
+	margin: 10px;
+
+}
+
+/*..... give width 100% to all input fields .......*/
+#fname, #lname, #phone, #email, #submit {
+	width: 95%;
+}
+
+/*.... for drive with us button .......*/
+
+#submit {
+	background-color: #57eeab;
+	font-size: 24px;
+	font-weight: bold;
+	width: 95%;
+}
+/*....... for a link ......*/
+.form a {
+	color: red;
+	text-decoration: none;
+}
+/*..... for footer ......*/
+.footer {
+	background-color: #fffd8c;
+	margin-top: 50px;
+	padding: 2.5rem;
+	margin-bottom: 20px;
+}
+/*... for footer heading text ......*/
+.footer h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 1rem;
+
+}
+/*...... for footer contain .......*/
+.footer p {
+	font-size: 16px;
+	margin: 1rem;
+}
+/*..... for calculate button .....*/
+#calculate {
+	background-color: #ff8480;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+	width: 100%;
+}
+/*...... for hours and city boxes .......*/
+.footer_form {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	font-size: 16px;
+
+}
+/*.... for space between hours and city boxes .......*/
+input#city {
+	margin-left: 5%;
+}
+
+.footer_form #hours {
+	width: 90%;
+}
+
+.footer_form #city {
+	width: 100%;
+}
+/*.... for social media icons .......*/
+.footer_images {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+/*........................................ styling for tablet view   .......................................*/
+
+@media (min-width: 768px)
+{
+	/*... for logo .....*/
+	.logo img {
+		width: 40%;
+		margin: 64px;
+	}
+	/*..... for heading ....*/
+	.text h1{
+		font-size: 80px;
+		margin: 64px;
+		margin-top: 0;
+	}
+	/*...... for paragraph ....*/
+	.text p{
+		margin: 64px;
+	}
+	/*......... for scooter girl image .....*/
+	.back_image img {
+		padding-left: 5rem;
+		padding-right: 5rem;
+		margin-bottom: 2rem;
+	}
+	/*...... for contact form ......*/
+	.form {
+		margin: 4rem;
+		padding-right: 2.5rem;
+	}
+
+	.form legend {
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+
+	.form p {
+		font-size: 30px;
+		margin-left: 1rem;
+	}
+	/* ...... for input field ......*/
+	input {
+		margin-left: 0.9rem;
+	}
+	/*.... for checkbox ......*/
+	.form .checkbox {
+		font-size: 20px;
+	}
+
+	/*... to put contain in center ....*/
+	.contain p{
+		margin-left: 1rem;
+		font-size: 17px;
+		text-align: center;
+	}
+	/*..... display hours, city and calculate button in one line ....*/
+	.form1 {
+		display: grid;
+		grid-template-columns: 60% 40% 70%;
+	}
+
+	.form1 fieldset {
+		margin-right: 35px;
+	}
+	/*... creates space between hours and city field .....*/
+	input#city {
+		margin-left: 2%;
+	}
+
+	.footer_form #hours {
+		width: 100%;
+	}
+
+	.footer_form #city {
+		width: 100%;
+	}
+
+	.footer_images {
+		display: flex;
+		justify-content: center;
+	}
+	/*..... gives margin to social media icons .....*/
+	.footer_images img {
+		margin: 0px 50px 0px 50px;
+	}
+}
+
+/*........................................ styling for Desktop view ..........................................*/
+
+@media (min-width: 1281px)
+{
+	/*... for logo ....*/
+	.logo img {
+		width: 10%;
+		margin-left: 7rem;
+	}
+	/*....  for heading ....*/
+	.text h1 {
+		font-size: 60px;
+		margin-left: 7rem;
+		width: 100%;
+		margin-top: 0px;
+	}
+	/*.... for paragraph ......*/
+	.text p{
+		margin-left: 7rem;
+		width: 100%;
+	}
+	/*..... put all three thing in one line ......*/
+	.wrapper{
+		display: grid;
+		grid-template-columns: 30% 40% 30%;
+	}
+	/*..... for scooter girl image .......*/
+	.back_image img{
+		position: absolute;
+		height: 70%;
+		z-index: 1;
+		padding: 0;
+		margin-bottom: 0;
+		padding-right: 100px;
+	}
+	/*....... for contact form .....*/
+	.form {
+		width: 20rem;
+		z-index: 2;
+		margin-top: 1.5rem;
+		/* margin-right: 15rem; */
+		margin-left: 0px;
+		padding-bottom: 4rem;
+	}
+	/*.... gives margin to h4 tag ....*/
+	.footer h4 {
+		margin-left: 7rem;
+	}
+	/*.... gives margin to p tag */
+	.footer p {
+		margin-left: 7rem;
+	}
+	/*..... display hours, city and calculate button in one line ....*/
+	.form1 {
+		display: grid;
+		grid-template-columns: 35% 30% 35%;
+		margin-left: 6rem;
+	}
+
+	input#hours {
+		width: 100%;
+	}
+	/*.... for social media image ....*/
+	.footer_images {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.footer_images img {
+		margin-right: 1rem;
+		margin-bottom: 0px;
+	}
+}
