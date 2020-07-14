@@ -1,0 +1,1612 @@
+/*.................................  Mobile view as defualt ......................................................*/
+/*............................ for the Home Page ....................................*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+}
+/*.... design navbar......*/
+.navbar {
+	background-color: #3c3b3a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 22px;
+	margin: 0;
+	
+}
+
+/*..... give properties to logo....*/
+.navbar img {
+	max-width: 100px;
+	height: auto;
+}
+
+#special {
+	transform: translateY(-10px) rotateZ(3turn) scale(0.5) rotateY(2turn);
+	transition: 0.6s;
+}
+
+/*.... for pagelinks .....*/
+.pagelink a {
+	font-size: 18px;
+	color: #f2f2f2;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+/*... animation for pagelinks*/
+#spin {
+	transform: rotateY(2turn);
+	transition: 0.6s;
+}
+
+/*.... to make active page bold ......*/
+.pagelink a.active {
+	font-weight: bold;
+}
+
+/*.... give padding to info ......*/
+.info {
+	padding: 40px;
+}
+
+/*..... give properties to h1 tag......*/
+.info h1 {
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+/*...... give properties to p tag......*/
+.info p {
+	font-size: 20px;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+/*...... for icons ......*/
+.icons {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	
+}
+
+
+/*..... for icons images ....*/
+.icons img {
+	width: 30%;
+	margin: 15px 50px 10px 50px;
+}
+
+/*..... for figcaption .....*/
+.icons figcaption{
+	text-align: center;
+	color: #26A682;
+	width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+/*.... for get started button .....*/
+.button button {
+	background-color: #26a682;
+	border-radius: 50px;
+	width: 100%;
+	color: #f2f2f2;
+	font-size: 32px;
+	font-weight: bold;
+	box-shadow: 5px 10px 18px #888888;
+	text-align: center;
+	border: none;
+	margin-top: 1rem;
+}
+
+/*.... for girl image .....*/
+.image2 img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 2rem;
+}
+.scroll {
+	display: none;
+}
+/*..... for school image .....*/
+.image3 img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*...... for content.....*/
+.content h1 {
+	font-size: 32px;
+	font-style: italic;
+}
+
+.content h2 {
+	font-size: 24px;
+	color: #26a682;
+	margin-top: 5px;
+	font-weight: 100;
+}
+
+.content p {
+	line-height: 1.5;
+	font-weight: 100;
+}
+
+/*.... for learn more button......*/
+.content button {
+	border-radius: 50px;
+	background-color: #26A682;
+	text-align: center;
+	font-weight: bold;
+	color: #F2F2F2;
+	font-size: 20px;
+	box-shadow: 5px 10px 18px #888888;
+	margin-top: 1.5rem;
+	margin-left: 160px;
+	padding: 0.5rem;
+	border: none;
+	width: 50%;
+}
+/*..... for contenter2 .......*/
+.content2 .image4 {
+	background-color: #3c3b3a;	
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*....... for simon image.....*/
+.image4 img {
+	max-width: 50%;
+	width: auto;
+	border-radius: 50%;
+	border: 5px solid #f2f2f2;
+	margin-top: 1rem;
+}
+/*..... for tags for name and position ......*/
+.image4 h1, h2 {
+	font-size: 24px;
+	color: #f2f2f2;
+	margin-top: 10px;
+	font-weight: bold;
+}
+/*..... for p tag ....*/
+.image4 p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #f2f2f2;
+	margin-top: 1rem;
+}
+
+/*..... for entertainment image ......*/
+.image5 img {
+	max-width: 100%;
+	height: auto;
+}
+/*.. for h1 tag ......*/
+.content3 h1 {
+	font-size: 32px;
+	font-style: italic;
+}
+/*...... for h2n tag .....*/
+.content3 h2 {
+	font-size: 24px;
+	color: #26a682;
+	margin-top: 5px;
+	font-weight: 100;
+}
+/*..... for p tag ......*/
+.content3 p {
+	line-height: 1.5;
+}
+/*....... for learn more button  .....*/
+.content3 button {
+	border-radius: 50px;
+	background-color: #26A682;
+	text-align: center;
+	font-weight: bold;
+	color: #F2F2F2;
+	font-size: 20px;
+	box-shadow: 5px 10px 18px #888888;
+	margin-top: 1.5rem;
+	margin-left: 160px;
+	padding: 0.5rem;
+	border: none;
+	width: 50%;
+}
+/*.... for footer ......*/
+footer {
+	background-color: #3c3b3a;
+	margin-top: 1rem;
+	padding: 1rem;
+	margin-bottom: 0;
+	display: grid;
+	grid-template-columns: 80% 20%;
+}
+/*... for follow us .....*/
+footer p {
+	font-size: 24px;
+	color: #f2f2f2;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+/*..... to make text align center .....*/
+.content4 {
+	text-align: center;
+}
+/*....... for icons......*/
+.content4 img {
+	padding: 6px;
+}
+/*..... for arrow ......*/
+.content5 img {
+	margin-top: 1rem;
+	max-width: 100%;
+	height: auto;	
+}
+/*.... animation for arrow ....*/
+#grow {
+	transform: scale(1);
+	transition: 0.3s;
+}
+/*.... for figcaption ......*/
+.content5 figcaption {
+	color: #f2f2f2;
+	font-size: 9px;
+	margin-top: 0.5rem;
+}
+
+
+/*.........................................for about page ...............................*/
+/*.... give padding to whole page  ....*/
+
+.info2 {
+	padding: 40px;
+}
+/*.... for h1 tag .....*/
+.content11 h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+/*..... for p tag .....*/
+.content11 p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+.content11 p .para {
+	font-size: 20px;
+	line-height: 1.5;
+
+}
+
+/*..... for construction image ....*/
+.image11 img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*... for background color of image ....*/
+.image12 {
+	background-color: #26a682;
+	text-align: center;
+	position: relative;
+}
+
+/*.... for about image ....*/
+.image12 img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	opacity: 0.50;
+}
+
+.backcolor {
+	background-color: #F2F2F2;
+}
+
+/*.... text on image .....*/
+.aimage {	
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	color: #f2f2f2;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/*..... for content start with who .....*/
+.content12 h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.content12 p {
+	font-size: 16px;
+	line-height: 2.5;
+	margin-top: 1rem;
+}
+
+/*.... for content start with what .....*/
+
+.content13 h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 1rem;
+}
+
+.content13 p {
+	font-size: 16px;
+	line-height: 2.5;
+	margin-top: 1rem;
+}
+
+/*..... for content start with where .....*/
+
+.content14 h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 1rem;
+}
+
+.content14 p {
+	font-size: 16px;
+	line-height: 2.5;
+	margin-top: 1rem;
+}
+
+/*..... for service image .....*/
+.image13 {
+	background-color: #26a682;
+	text-align: center;
+	position: relative;
+}
+/*.... for service image ....*/
+.image13 img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	opacity: 0.5;
+}
+/*.... to put text on image .....*/
+.services {	
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	color: #f2f2f2;
+	font-size: 50px;
+	font-weight: bold;
+}
+/*.... to hide bar image ....*/
+.barimage img {
+	display: none;
+}
+/*..... for content start with need a break ......*/
+.content15 h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+/*.... for h2 tag .....*/
+.content15 h2 {
+	font-size: 24px;
+	color: #26a682;
+	margin-top: 1rem;
+	font-weight: 100;
+}
+/*... for p tag .....*/
+.content15 p {
+	font-size: 15px;
+	line-height: 2.5;
+	margin-top: 1rem;
+}
+/*..... gives padding to content16 ....*/
+.content16 {
+	padding: 40px;
+}
+
+/*..... h1 tag for content16 ........ */
+.content16 h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+/*..... h2 tag for content16 ......*/
+.content16 h2 {
+	font-size: 24px;
+	color: #26a682;
+	margin-top: 1rem;
+	font-weight: 100;
+}
+
+/*..... p tag for content16 .....*/
+.content16 p {
+	font-size: 15px;
+	line-height: 2.5;
+	margin-top: 1rem;
+}
+/*... to hide bowling image .....*/
+.bowling img {
+	display: none;
+}
+
+/*.... gives background color to content17 .....*/
+.content17 {
+	background-color: #3C3B3A;
+}
+/*....... h1 tag for content17  .......*/
+.content17 h1 {
+	font-size: 18px;
+	text-align: center;
+	padding: 1rem;
+	color: #f2f2f2;
+	padding-top: 1.5rem;
+}
+
+/*...... for subscribe button ......*/
+.content17 button {
+	font-size: 20px;
+	color: #f2f2f2;
+	border-radius: 50px;
+	max-width: 100%;
+	padding: 0.7rem;
+	margin: 0.5rem 0.5rem 1rem 15rem;
+	background-color: #26a682;
+	text-decoration: none;
+	font-weight: bold;
+	border: none;
+}
+
+/*..... h1 tag for content18 ........ */
+.content18 h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+/*..... h2 tag for content18 ......*/
+.content18 h2 {
+	font-size: 24px;
+	color: #26a682;
+	margin-top: 1rem;
+	font-weight: 100;
+}
+
+/*..... p tag for content18 .....*/
+.content18 p {
+	font-size: 15px;
+	line-height: 2.5;
+	margin-top: 1rem;
+}
+/*.... to hide fitness image ....*/
+.fitness img {
+	display: none;
+}
+
+/*..... for padding ....*/
+.content19 {
+	padding: 40px;
+}
+
+/*...... h1 tag for content19 ......*/
+.content19 h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+/*..... h2 tag for content19 ....*/
+.content19 h2 {
+	font-size: 24px;
+	margin-top: 1rem;
+	color: #26a682;
+	font-weight: 100;
+}
+/*..... p tag for content18 .....*/
+.content19 p {
+	font-size: 15px;
+	line-height: 2.5;
+	margin-top: 1rem;
+	font-weight: 100;
+}
+
+/*..... h1 tag for content20 .....*/
+.content20 h1 {
+	font-size: 56px;
+	font-weight: bold;
+	text-align: center;
+}
+/*.... to hide climbing image .....*/
+.climbing img {
+	display: none;
+}
+/*.... for college image ....*/
+.content20 img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem; 
+}
+/*... for iconimages ....*/
+.about_image {
+	padding: 2rem 9rem;
+}
+.i1, .i2, .i3, .i4 {
+	width: 100%;
+}
+.i4 {
+	padding: 1rem 2rem;
+}
+
+
+/*........................................ for contact page .....................................*/
+/*... give padding everywhere .....*/
+.info3 {
+	padding: 40px;
+}
+
+/*........ h1 tag for content21 .....*/
+.content21 h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/*........ p tag for content21 ......*/
+.content21 p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 1rem;
+}
+
+/*..... for contact image .....*/
+.image31 img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*.... for contact form .....*/
+.form {
+	background-color: #26a682;
+	border-radius: 20px;
+	padding: 1.5rem;
+	max-width: 100%;
+	height: auto;
+	margin-top: 1rem;
+	box-shadow: 6px 6px 10px grey;
+}
+/*.... for legend .....*/
+fieldset legend {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #f2f2f2;
+}
+/*.... for lables ......*/
+fieldset label {
+	color: #F2F2F2;
+	font-size: 18px;
+}
+/*..... for all inputs ......*/
+fieldset input {
+	width: 100%;
+	margin: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	color: #3c3b3a;
+	font-size: 16px;
+	border-radius: 20px;
+	padding: 0.7rem;
+	border: none;
+
+}
+/*.... give height to message field .....*/
+fieldset #message {
+	height: 100px;
+	padding: 10px 20px 70px 15px;
+}
+
+/*..... for submit button ......*/
+fieldset #submit {
+	background-color: #3c3b3a;
+	color: #f2f2f2;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 2px 2px 5px #3c3b3a;
+	border: none;
+}
+.content22 {
+	padding: 3rem;
+
+}
+
+/*..... h1 tag for content22 .....*/
+.content22 h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 3rem;
+}
+
+/*.... h2 tag for content ....*/
+.content22 h2 {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-top: 1rem;
+	color: #3c3b3a;
+	font-weight: 100;
+}
+
+/*.... h3 tags for content22 .....*/
+.content22 h3 {
+	font-size: 16px;
+	line-height: 1;
+	margin-top: 1rem;
+}
+
+/*.... for map .....*/
+.image32 iframe {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0; 
+}
+
+.footer3 footer{
+	margin: 0;
+	padding: 0;
+}
+
+/*...................................... for tablet view ......................................................*/
+
+@media (min-width: 768px) {
+	/*.............................. for index.html ....................................*/
+	/*.... for navbar .......*/
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1px;
+		margin: 0;		
+	}
+
+	/*..... for logo .....*/
+	.navbar img {
+		margin-left: 80px;
+	}
+
+	/*..... for pagelinks .......*/
+	.pagelink {
+		display: flex;
+		align-items: flex-end;		
+		margin-right: 80px;
+	}
+	/*.... for padding .....*/
+	.info {
+		padding: 80px 80px 20px 80px;
+	}
+	/*.......... h1 tag for info ..... */
+	.info h1 {
+		font-size: 72px;
+		font-weight: bold;
+	}
+	/*...... give properties to p tag......*/
+	.info p {
+		font-size: 24px;
+		margin-top: 20px;
+		line-height: 1.5;
+	}
+
+	/*...... for icons ......*/
+	.icons {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	/*.... for get start button ......*/
+	.button button {
+		width: 50%;
+		margin-right: 170px;
+		margin-left: 170px;
+		padding: 0.5rem;
+	}
+
+	/*.... for girl image .....*/
+	.image2 img {
+		padding: 10px 150px;
+	}
+	/*.... to display scroll arrow ......*/
+	.scroll  {
+		display: block;
+		margin: 40px 280px 0 280px;
+		padding-bottom: 0;
+	}
+	/*.... for arrow .....*/
+	.scroll img {
+		transform: rotate(180deg);
+	}
+	/*..... for figcaption .......*/
+	.scroll figcaption {
+		transform: translate(-0px, -73px);
+		font-size: 16px;
+	}
+	/*... to remove top margin .....*/
+	.image3 img {
+		padding-top: 0;
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+	.content h1 {
+		font-size: 40px;
+	}
+
+	.content h2 {
+		font-size: 32px;
+		margin-top: 15px;
+	}
+
+	.content p {
+		font-size: 18px;
+		line-height: 2;
+	}
+
+	/*.... for learn more button......*/
+	.content button {
+		font-size: 27px;
+		width: 40%;
+		margin-left: 60%;
+	}
+	/*..... for display in row .....*/
+	.home331 {
+		display: grid;
+		grid-template-columns: 35% 65%;
+		padding: 0;
+		margin:0;
+
+	}
+	.home31 {
+		padding: 0;
+		margin:0;
+
+	}
+	/*... to give image height .....*/
+	.image4 img {
+		max-width: 100%;
+		height: auto;
+	}
+	/*.... for h1 tag .....*/
+	.image4 h1 {
+		font-size: 24px;
+		margin-top: 3rem;
+	}
+	/*.... for h2 tag .....*/
+	.image4 h2 {
+		font-size: 24px;
+		margin-top: 1rem;
+	}
+	/*.... for para .....*/
+	.image4 p {
+		font-size: 24px;
+	}
+	/*.... zoom the image ....*/
+	.image5 img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+	/*.. for h1 tag ......*/
+	.content3 h1 {
+		font-size: 40px;
+	}
+	/*...... for h2n tag .....*/
+	.content3 h2 {
+		font-size: 32px;
+		margin-top: 15px;
+	}
+	/*..... for p tag ......*/
+	.content3 p {
+		font-size: 18px;
+		font-weight: 100;
+		line-height: 2;
+	}
+	/*....... for learn more button  .....*/
+	.content3 button {
+		font-size: 27px;
+		width: 40%;
+		margin-left: 60%;
+	}
+	/*..... for footer ....*/
+	footer {
+		padding: 0.3rem;
+	}
+	.content4 {
+		text-align: center;
+		margin-left: 20%;
+		padding: 1rem;
+	}
+
+	/*..... for gototop arrow ....*/
+	.content5 img {
+		width: 30%;
+		margin-top: 3rem;
+		margin-right: 1rem;
+	}
+	/*.... for arrow ....*/
+	.content5 {
+		margin-right: 20px;
+		text-align: right;
+		padding: 1rem;
+	}
+	/*.... for figcaption .....*/
+	.content5 figcaption {
+		margin-right: 0.5rem;
+	}
+
+	/*.................................. for about page ....................*/
+	/*... for padding ....*/
+	.info2 {
+		padding: 80px 80px 20px 80px;
+	}
+	/*.......... h1 tag for info ..... */
+	.info2 h1 {
+		font-size: 72px;
+		font-weight: bold;
+	}
+
+	/*...... give properties to p tag......*/
+	.info2 p {
+		font-size: 24px;
+		margin-top: 20px;
+		line-height: 1.5;
+	}
+	/*... to zoom construction image .....*/
+	.image11 img {
+		padding-bottom: 0;
+	}
+	/*.... for about image .....*/
+	.image12 img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+	/*.... text on image ....*/
+	.aimage {
+		font-size: 56px;
+		font-weight: bold;
+	}
+	/*... for h1 tag ....*/
+	.content12 h1 {
+		font-size: 40px;
+	}
+	/*... for para .....*/
+	.content12 p {
+		font-size: 18px;
+		line-height: 2.5;
+	}
+	/*... for h1 tag ....*/
+	.content13 h1 {
+		font-size: 40px;
+	}
+	/*... for para .....*/
+	.content13 p {
+		font-size: 18px;
+		line-height: 2.5;
+	}
+	/*... for h1 tag ....*/
+	.content14 h1 {
+		font-size: 40px;
+	}
+	/*... for para .....*/
+	.content14 p {
+		font-size: 18px;
+		line-height: 2.5;
+	}
+	/*.... for service image ....*/
+	.image13 img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+	/*... text on image ....*/
+	.services {
+		font-size: 56px;
+		font-weight: bold;
+	}
+
+	/*.... for bar image ....*/
+	.barimage img {
+		width: 218px;
+		height: 374.51px;
+		display: block;	
+		object-fit: cover;	
+	}
+	/*.... for display in row ....*/
+	.info21 {
+		display: grid;
+		grid-template-columns: 40% 60%;
+		margin-bottom: 2rem;
+	}
+	/*.... for h1 tag .....*/
+	.content15 h1 {
+		font-size: 40px;
+	}
+	/*.... for h2 tag .....*/
+	.content15 h2 {
+		font-size: 32px;
+	}
+	/*.... for para .....*/
+	.content15 p {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+	/*... to display bowling image ....*/
+	.bowling img {
+		width: 218px;
+		height: 374.51px;
+		display: block;	
+		object-fit: cover;	
+		margin-top: 1.5rem;
+	}
+	/*.... for display in row ....*/
+	.info22 {
+		display: grid;
+		grid-template-columns: 60% 30%;
+		padding: 1rem;
+		padding-bottom: 1.5rem;
+	}
+	/*.... for h1 tag .....*/
+	.content16 h1 {
+		font-size: 37px;
+	}
+	/*.... for h2 tag .....*/
+	.content16 h2 {
+		font-size: 32px;
+	}
+	/*.... for para .....*/
+	.content16 p {
+		font-size: 18px;
+		line-height: 2;
+	}
+	/*..... to display im row .....*/
+	.content17 {
+		display: grid;
+		grid-template-columns: 70% 30%;
+		padding-bottom: 0;
+	}
+	/*.... for h1 tag ......*/
+	.content17 h1 {
+		font-size: 24px;
+		margin-top: 1rem;
+	}
+	/*..... for subscribe button ......*/
+	.content17 button {
+		width: 70%;
+		font-size: 24px;
+		font-weight: bold;
+		margin-top: 2rem;
+		margin-left: 2rem;
+	}
+	/*...... to display in row .....*/
+	.content18 {
+		display: grid;
+		grid-template-columns: 30% 60%;
+		grid-gap: 10%;
+	}
+
+	/*... to dispay fitness image .....*/
+	.fitness img {
+		width: 218px;
+		height: 375px;
+		display: block;
+		object-fit: cover;
+		margin-bottom: 2rem;
+	}
+	/*.... for h1 tag ....*/
+	.content18 h1 {
+		font-size: 40px;
+	}
+	/*.... for h2 tag ....*/
+	.content18 h2 {
+		font-size: 32px;
+	}
+	/*..... for para ....*/
+	.content18 p {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+	/*...... to display in row .....*/
+	.content19 {
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-gap: 5%;
+		padding: 80px 80px 20px 80px;
+	}
+
+	/*... to dispay fitness image .....*/
+	.climbing img {
+		width: 218px;
+		height: 375px;
+		display: block;
+		object-fit: cover;
+		margin-bottom: 2rem;
+	}
+	/*.... for h1 tag ....*/
+	.content19 h1 {
+		font-size: 37px;
+	}
+	/*.... for h2 tag ....*/
+	.content19 h2 {
+		font-size: 32px;
+	}
+	/*..... for para ....*/
+	.content19 p {
+		font-size: 18px;
+		line-height: 2;
+	}
+	/*.... for h1 tag ....*/
+	.content20 h1 {
+		font-size: 56px;
+		text-align: center;
+		padding: 40px;
+		line-height: 1.5;
+	}
+	/*..... for college image .....*/
+	.content20 img {
+		padding: 0 50px 50px 50px;
+	}
+	/*..... for iconimages .....*/
+	.about_image {
+		padding: 2rem 15rem;
+	}
+	.i1, .i2, .i3, .i4 {
+		width: 100%;
+	}
+	.i4 {
+		padding: 1rem 5rem;
+	}
+	/*............................ for contact page .....................................*/
+	/*... for padding ....*/
+	.info3 {
+		padding: 80px 80px 20px 80px;
+	}
+	/*.......... h1 tag for info ..... */
+	.info3 h1 {
+		font-size: 72px;
+		font-weight: bold;
+	}
+	/*...... give properties to p tag......*/
+	.info3 p {
+		font-size: 24px;
+		margin-top: 20px;
+		line-height: 1.5;
+	}
+	/*.... for image .....*/
+	.image31 img {
+		padding: 0 80px;
+	}
+	/*..... for contact form .......*/
+	form {
+		padding: 1rem;
+	}
+	/*.... for increase the size of legend ......*/
+	fieldset legend {
+		font-size: 72px;
+		padding: 1rem;
+	}
+	/*..... for label ......*/
+	fieldset label {
+		font-size: 24px;
+		margin: 1rem;
+	}
+	/*.... for input fields ......*/
+	fieldset input {
+		margin-top: 1rem;
+		padding: 1rem;
+		border-radius: 50px;
+		font-size: 16px;
+	}
+	/*..... for message field .....*/
+	#message {
+		border-radius: 15px;
+	}
+	/*..... for submit button ......*/
+	fieldset #submit {
+		width: 50%;
+		margin-left: 50%;
+		box-shadow: 3px 7px 14px #3c3b3a;
+		border-radius: 50px;
+	}
+	.content22 {
+		padding: 3rem;
+		
+	}
+
+	/*... for h1 tag ......*/
+	.content22 h1 {
+		font-size: 72px;
+	}
+	/*... for h2 tag .....*/
+	.content22 h2 {
+		font-size: 40px;
+	}
+	/*.... for h3 tag ....*/
+	.content22 h3 {
+		font-size: 18px;
+		margin-bottom: 1rem;
+	}
+	/*.... for map ......*/
+	.image32 iframe {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		margin-bottom: 0;
+		margin: 0;
+	}
+
+}
+
+/*.............................................. for dekstop view ...........................................*/
+@media (min-width: 1281px) {
+	/*................................ for home page ...........................*/
+	/*..... for navbar ....... */
+	
+	/*.... for pagelink .....*/
+	.pagelink {
+		font-size: 16px;
+	}
+	/*..... for padding ......*/
+	.info {
+		padding: 4rem 4rem 0 4rem;
+	}
+	/*..... to display image and content in row ......*/
+	.home1 {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	/*.... for h1 tag .....*/
+	.info h1 {
+		font-size: 72px;
+	}
+	/*... for para .....*/
+	.info p{
+		font-size: 24px;
+		line-height: 2;
+		padding: 1rem 0;
+	}
+	/*... give padding to icons .....*/
+	.icons {
+		padding: 0 15px;
+	}
+	/*.... for icon images .....*/
+	.icons img {
+		width: 30%;
+	}
+	/*... for icon figcaption ......*/
+	.icons figcaption {
+		font-size: 16px;
+		margin-left: 0;
+		color: #26a682;
+	}
+	/*..... for image ....*/
+	.image2 img {
+		width: 100%;
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+	/*..... for button .....*/
+	.button button {
+		width: 50%;
+		padding: 5px;
+		font-size: 40px;
+		border-radius: 50px;
+		margin-left: 0;
+		margin-top: 1rem;
+		font-weight: bold;
+	}
+	/*.... to display scroll arrow ......*/
+	.scroll  {
+		display: block;
+		margin: 70px 280px 0 280px;
+		text-align: center;
+	}
+	/*.... for arrow .....*/
+	.scroll img {
+		transform: rotate(180deg);
+		width: 5%;
+	}
+	/*..... for figcaption .......*/
+	.scroll figcaption {
+		transform: translate(-3px, -50px);
+		font-size: 16px;
+	}
+	/*... to display in row ....*/
+	.home2 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding-bottom: 4rem;
+	}
+	/*.... for padding ....*/
+	.image3 {
+		padding: 4rem 0 0 4rem;
+	}
+	/*..... for image .....*/
+	.image3 img {
+		width: 100%;
+		height: auto;
+	}
+	/*.... for h1 tag .....*/
+	.content h1 {
+		font-size: 40px;
+		margin-top: 0;
+		padding-top: 0; 
+	}
+	/*.... for h2 tag .....*/
+	.content h2 {
+		font-size: 32px;
+		width: 100%;
+		font-weight: 100;
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+	/*.... for p tag .....*/
+	.content p {
+		font-size: 18px;
+		line-height: 2;
+		width: 100%;
+		margin-top: 0;
+	}
+	/*.... for button .....*/
+	.content button {
+		padding: 1rem;
+		width: 40%;
+		font-size: 27px;
+		font-weight: bold;
+	}
+	/*..... to display in row .....*/
+	.home331 { 
+		display: grid;
+		grid-template-columns: 15% 25% 60%;
+		background-color: #3c3b3a;
+	}
+	/*.... for image .....*/
+	.image4 img {
+		max-width: 100%;
+		height: auto;
+		margin-left: 3rem;		
+	}
+	/*.... for h1 tag ....*/
+	.image4 h1 {
+		font-size: 24px;
+	}
+	/*.... for h2 tag ....*/
+	.image4 h2 {
+		font-size: 24px;
+	}
+	/*.... for p tag ....*/
+	.image4 p {
+		font-size: 24px;
+		line-height: 1.5;
+		margin-right: 3px;
+	}
+	/*.... to display in row ....*/
+	.home4 {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	/*... for padding ....*/
+	.image5 {
+		padding: 4rem 0 4rem 4rem;
+	}
+	/*... for image ....*/
+	.image5 img {
+		width: 100%;
+		height: auto;
+	}
+	/*.... for h1 tag .....*/
+	.content3 h1 {
+		font-size: 40px;
+		margin-top: 0;
+		padding-top: 0; 
+	}
+	/*.... for h2 tag ....*/
+	.content3 h2 {
+		font-size: 32px;
+		width: 100%;
+		font-weight: 100;
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+	/*.... for p tag .....*/
+	.content3 p {
+		font-size: 18px;
+		line-height: 2;
+		width: 100%;
+		margin-top: 0;
+	}
+	/*.... for button .....*/
+	.content3 button {
+		padding: 1rem;
+		width: 40%;
+		font-size: 27px;
+		font-weight: bold;
+	}
+	/*..... p tag for footer ....*/
+	.content4 p {
+		font-size: 24px;
+	}
+	/*..... for gototop arrow ....*/
+	.content5 img {
+		width: 13%;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	/*.... for figcaption .....*/
+	.content5 figcaption {
+		font-size: 16px;
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+
+	/*.......................... for about page ....................................*/
+	/*.... for padding ....*/
+	.info2 {
+		padding: 4rem 4rem 1rem 4rem;
+	}
+	/*...... to display in row .....*/
+	.about1 {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	/*..... for h1 tag .....*/
+	.content11 h1 {
+		font-size: 72px;
+	}
+	/*..... for p tag ....*/
+	.content11 p {
+		font-size: 24px;
+	}
+
+	/*.... for image .....*/
+	.image11 img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*.... for about image .....*/
+	.image12 img {
+		max-width: 100%;
+	}
+	/*.... for about text ....*/
+	.aimage {
+		font-size: 72px;
+	}
+
+	/*..... to display in row .....*/
+	.about2 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 5%;
+		padding: 4rem 2rem;
+	}
+	/*..... for h1 tag .....*/
+	.content12 h1 {
+		font-size: 40px;
+	}
+	/*...... for p tag .....*/
+	.content12 p {
+		font-size: 18px;
+	}
+	/*..... for h1 tag .....*/
+	.content13 h1 {
+		font-size: 40px;
+	}
+	/*...... for p tag .....*/
+	.content13 p {
+		font-size: 18px;
+	}
+	/*..... for h1 tag .....*/
+	.content14 h1 {
+		font-size: 40px;
+	}
+	/*...... for p tag .....*/
+	.content14 p {
+		font-size: 18px;
+	}
+	/*..... text on image .....*/
+	.services {
+		font-size: 72px;
+	}
+
+	/*.... for bar image ....*/
+	.barimage img {
+		width: 100%;
+		height: auto;
+		display: block;	
+		object-fit: cover;
+		padding-right: 1rem;	
+	}
+	/*.... for display in row ....*/
+	.info21 {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin-bottom: 2rem;
+	}
+	/*.... for h1 tag .....*/
+	.content15 h1 {
+		font-size: 40px;
+	}
+	/*.... for h2 tag .....*/
+	.content15 h2 {
+		font-size: 32px;
+	}
+	/*.... for para .....*/
+	.content15 p {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+
+	/*.... for display in row ....*/
+	.info22 {
+		display: grid;
+		grid-template-columns: 50% 45%;
+		padding: 1rem;
+		padding-bottom: 3rem;
+	}
+	/*... to display bowling image ....*/
+	.bowling img {
+		width: 100%;
+		height: auto;
+		display: block;	
+		object-fit: cover;	
+		margin-top: 1.5rem;
+	}
+
+	/*.... for h1 tag .....*/
+	.content16 h1 {
+		font-size: 37px;
+	}
+	/*.... for h2 tag .....*/
+	.content16 h2 {
+		font-size: 32px;
+	}
+	/*.... for para .....*/
+	.content16 p {
+		font-size: 18px;
+		line-height: 2;
+	}
+	/*..... to display im row .....*/
+	.content17 {
+		display: grid;
+		grid-template-columns: 70% 30%;
+		padding-bottom: 0;
+	}
+	/*.... for h1 tag ......*/
+	.content17 h1 {
+		font-size: 40px;
+		margin-top: 0.5rem;
+		margin-right: 0;
+		width: 100%;
+	}
+	/*..... for subscribe button ......*/
+	.content17 button {
+		width: 70%;
+		font-size: 24px;
+		font-weight: bold;
+		margin-left: 0;
+		margin-top: 1.5rem;
+	}
+
+	/*...... to display in row .....*/
+	.content18 {
+		display: grid;
+		grid-template-columns: 45% 50%;
+		padding: 1rem;
+		padding-right: 5rem;
+	}
+	/*... for padding ...*/
+	.firness1 {
+		margin-right: 3rem;
+	}
+	/*... to dispay fitness image .....*/
+	.fitness img {
+		display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+	/*...... to display in row .....*/
+	.content19 {
+		display: grid;
+		grid-template-columns: 50% 45%;
+		grid-gap: 5%;
+		padding: 80px 80px 20px 80px;
+	}
+
+	/*... to dispay fitness image .....*/
+	.climbing img {
+		display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin-bottom: 2rem;
+	}
+
+	/*.... for h1 tag ....*/
+	.content20 h1 {
+		font-size: 72px;
+		text-align: center;
+		padding: 2rem 17rem;
+		line-height: 1;
+	}
+	/*..... for icon images ....*/
+	.i1, .i2, .i3, .i4 {
+		width: 20%;
+		height: 150px;
+		margin: 10px;
+	}
+	.i4 {
+		width: 35%;
+	}
+
+	.about_image {
+		display: flex;
+		justify-content: space-around;
+		padding: 3rem;
+	}
+
+
+
+
+
+
+	/*............................. for contact page ..................................*/
+	/*..... for padding ....*/
+	.info3 {
+		padding: 4rem 4rem 1rem 4rem;
+	}
+	/*..... to display in row ....*/
+	.contact1 {
+		display: grid;
+		grid-template-columns: 50% 45%;
+		grid-gap: 5%;
+	}
+	/*.... for image ....*/
+	.image31 img {
+		width: 100%;
+		height: auto;
+		margin-top: 9rem;
+	}
+	.contact21 {
+		padding: 3rem;
+	}
+	/*...... to display in row ......*/
+	.contact2 {
+		display: grid;
+		grid-template-columns: 50% 45%;
+		grid-gap: 5%;
+		padding: 3rem 0;
+	}
+
+	.image32 iframe {
+		margin-top: 5rem;
+		padding: 3rem;
+		width: 100%;
+		height: 500px;
+	}
+
+}
+
+
